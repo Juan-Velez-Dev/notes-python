@@ -9,7 +9,7 @@ print(1 + 3)  # => suma
 print(1 - 3)  # => resta
 print(1 * 3)  # => multiplicacion
 print(1 / 3)  # => division
-print(1 // 3)  # => usando el doble slash nos devuelve el entero del resultado
+print(1 // 3)  # => usando el doble slash nos devuelve el entero del resultado es decir 2 // 3.5 = lo que hace es convertir el float a int => 2 // 3
 print(1 % 3)  # => retorna el resto de la division
 print(2 ** 3)  # => retorna el exponencial " 2 elevado 3"
 

@@ -9,6 +9,10 @@ Por ejemplo si al invocar esta función pasamos la palabra
 
 
 def ordenar_palabras(palabra):
+    """ 
+    el argumento paralabra lo ingrese a una lista ya seteado: 
+    esto me permite separar por caracter en una lista sin repetidos
+    """
     palabra_sin_repetidos = list(set(palabra))
     palabra_sin_repetidos.sort()
     return palabra_sin_repetidos

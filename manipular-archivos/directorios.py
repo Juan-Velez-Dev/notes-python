@@ -23,4 +23,4 @@ from pathlib import Path
 carpeta = Path("/Users/juanv/Documents/code/NOTES/LANGUAJE/PYTHON")
 archivo = carpeta / 'otro_archivo.txt'
 mi_archivo = open(archivo)
-print(mi_archivo.read)
+print(mi_archivo.read())
